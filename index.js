@@ -191,7 +191,7 @@ function keyDown(event)
 function resetGame() {
     // Reset all game variables to their initial values
     snakeParts.length = 0;
-    tailLength = 2;
+    tailLength = 0;
     headX = 10;
     headY = 10;
     xvelocity = 0;
